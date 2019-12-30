@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="#1c2243"
+        android:layout_margin="5dp"
+        >
+    <TextView
+        android:id="@+id/schedule_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#deffffff"
+        android:text="中影I Do巨幕全景声厅"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        />
+    <RelativeLayout
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schedule_Name"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        >
+        <TextView
+            android:id="@+id/start_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#deffffff"
+            android:text="14:40"
+            />
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:background="#ffffff"
+            android:layout_toRightOf="@id/start_Time"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="9.5dp"
+            android:id="@+id/zdy"
+            />
+        <TextView
+            android:id="@+id/stop_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#deffffff"
+            android:text="16:26 "
+            android:layout_toRightOf="@id/zdy"
+            android:layout_marginLeft="5dp"
+            />
+    </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

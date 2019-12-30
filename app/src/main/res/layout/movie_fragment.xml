@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#141931"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="19.6dp"
+            android:layout_height="24dp"
+            android:id="@+id/movie_location"
+            android:background="@mipmap/icon_location"
+            android:layout_marginTop="@dimen/dp_38"
+            android:layout_marginLeft="26dp"
+            />
+        <TextView
+            android:id="@+id/movie_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_toRightOf="@id/movie_location"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="@dimen/dp_38"
+            android:text="北京"
+            />
+    <EditText
+        android:layout_width="@dimen/dp_220"
+        android:layout_marginLeft="@dimen/dp_100"
+        android:layout_marginTop="35dp"
+        android:hint="请输入影院名称"
+        android:padding="@dimen/dp_5"
+        android:background="@drawable/home_shape"
+        android:layout_height="@dimen/dp_30"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_below="@id/movie_location"
+            android:background="#1c2243"
+            android:layout_marginTop="15dp"
+            android:id="@+id/movie_linear"
+            android:orientation="horizontal"
+            >
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:id="@+id/movie_tab"
+                app:tabTextColor="#ffffff"/>
+
+            <Spinner
+                android:id="@+id/movie_spinner"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:visibility="gone"
+                android:popupBackground="#1c2243"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:layout_below="@id/movie_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/movie_viewpage"/>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+    <RelativeLayout
+        android:layout_width="312dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:background="#141931"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/recommend_adapter_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            />
+        <TextView
+            android:id="@+id/recommend_adapter_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#deffffff"
+            android:layout_toRightOf="@id/recommend_adapter_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:text="保利国际影城（龙旗广场店）"/>
+        <TextView
+            android:id="@+id/recommend_adapter_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#deffffff"
+            android:lineSpacingExtra="4sp"
+            android:layout_toRightOf="@id/recommend_adapter_image"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="37dp"
+            android:text="昌平区黄平路19号院3号楼龙旗广场购物购物中心3层"/>
+    </RelativeLayout>
+
+</RelativeLayout>

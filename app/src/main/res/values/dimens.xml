@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    4     <!-- Your custom size defind by references, can be writted in anywhere, any module, any values/*.xml, for example: -->
+    5
+    6
+
+    7     <!-- dp and sp values, must be defind in this file! -->
+    8     <!-- view size,you can add if there is no one -->
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+    <dimen name="dp_5">5dp</dimen>
+    29
+    30
+    31
+    31
+    32
+    33
+    34
+    <dimen name="dp_10">10dp</dimen>
+    35
+    36
+    <dimen name="dp_12">12dp</dimen>
+    37     <dimen name="dp_13">13dp</dimen>
+    38     <dimen name="dp_14">14dp</dimen>
+    39     <dimen name="dp_15">15dp</dimen>
+    40     <dimen name="dp_16">16dp</dimen>
+    41
+    42
+    <dimen name="dp_18">18dp</dimen>
+    43
+    44
+    <dimen name="dp_20">20dp</dimen>
+    45     <dimen name="dp_21">21dp</dimen>
+    46     <dimen name="dp_22">22dp</dimen>
+    47
+    48
+    <dimen name="dp_24">24dp</dimen>
+    49     <dimen name="dp_25">25dp</dimen>
+    50     <dimen name="dp_26">26dp</dimen>
+    51
+    52
+    53
+    54
+    <dimen name="dp_30">30dp</dimen>
+    55
+    56
+    57
+    58
+    59
+    <dimen name="dp_35">35dp</dimen>
+    60     <dimen name="dp_36">36dp</dimen>
+    61
+    62
+    <dimen name="dp_38">38dp</dimen>
+    63
+    64
+    <dimen name="dp_40">40dp</dimen>
+    65
+    66
+    67
+    68
+    <dimen name="dp_44">44dp</dimen>
+    69
+    70
+    71
+    72
+    73
+    74
+    <dimen name="dp_50">50dp</dimen>
+    75
+    76
+    76
+    77
+    78
+    79
+    80
+    81
+    82
+    83
+    <dimen name="dp_59">59dp</dimen>
+    84     <dimen name="dp_60">60dp</dimen>
+    85
+    86
+    87
+    88
+    89
+    90
+    91
+    <dimen name="dp_67">67dp</dimen>
+    92
+    93
+    94
+    95
+    96
+    97
+    98
+    99
+    100
+    101
+    102
+    103
+    104
+    <dimen name="dp_80">80dp</dimen>
+    105
+    106
+    107
+    108
+    <dimen name="dp_84">84dp</dimen>
+    109
+    110
+    111
+    112
+    <dimen name="dp_88">88dp</dimen>
+    113
+    114
+    <dimen name="dp_90">90dp</dimen>
+    115
+    116
+    117
+    118
+    119
+    120
+    121
+    122
+    123
+    124
+    <dimen name="dp_100">100dp</dimen>
+    125
+    126
+    127
+    128
+    129
+    130
+    131
+    132
+    133
+    134
+    <dimen name="dp_110">110dp</dimen>
+    135
+    136
+    137
+    138
+    139
+    140
+    141
+    142
+    143
+    144
+    <dimen name="dp_120">120dp</dimen>
+    145
+    146
+    147
+    148
+    149
+    150
+    151
+    152
+    153
+    154
+    <dimen name="dp_130">130dp</dimen>
+    155
+    156
+    157
+    158
+    159
+    160
+    161
+    162
+    <dimen name="dp_138">138dp</dimen>
+    163
+    164
+    165
+    166
+    167
+    168
+    169
+    170
+    171
+    171
+    171
+    171
+    171
+    171
+    171
+    172
+    173
+    174
+    <dimen name="dp_150">150dp</dimen>
+    175
+    176
+    177
+    178
+    179
+    180
+    181
+    182
+    183
+    184
+    185
+    186
+    187
+    188
+    189
+    190
+    191
+    192
+    <dimen name="dp_168">168dp</dimen>
+    193
+    194
+    194
+    195
+    196
+    197
+    198
+    199
+    200
+    201
+    202
+    <dimen name="dp_178">178dp</dimen>
+    203
+    204
+    <dimen name="dp_180">180dp</dimen>
+    205
+    206
+    207
+    208
+    209
+    210
+    211
+    212
+    213
+    214
+    215
+    216
+    217
+    218
+    219
+    <dimen name="dp_195">195dp</dimen>
+    220
+    221
+    222
+    223
+    224
+    <dimen name="dp_200">200dp</dimen>
+    225
+    226
+    227
+    228
+    229
+    230
+    231
+    232
+    233
+    234
+    <dimen name="dp_210">210dp</dimen>
+    235
+    236
+    237
+    238
+    239
+    240
+    241
+    242
+    243
+    244
+    <dimen name="dp_220">220dp</dimen>
+    245
+    246
+    247
+    248
+    249
+    250
+    251
+    252
+    253
+    254
+    255
+    256
+    257
+    258
+    259
+    259
+    260
+    261
+    262
+    263
+    264
+    265
+    266
+    267
+    268
+    269
+    270
+    271
+    272
+    273
+    274
+    275
+    276
+    277
+    278
+    279
+    280
+    281
+    282
+    283
+    284
+    285
+    286
+    287
+    288
+    289
+    290
+    291
+    292
+    293
+    294
+    295
+    296
+    297
+    298
+    299
+    <dimen name="dp_275">275dp</dimen>
+    300
+    301
+    302
+    303
+    304
+    305
+    306
+    307
+    308
+    309
+    310
+    311
+    312
+    313
+    314
+    315
+    316
+    317
+    318
+    319
+    320
+    321
+    322
+    323
+    324
+    325
+    326
+    327
+    328
+    329
+    330
+    331
+    332
+    333
+    334
+    335
+    336
+    <dimen name="dp_312">312dp</dimen>
+    337
+    338
+    339
+    340
+    341
+    342
+    343
+    344
+    <dimen name="dp_320">320dp</dimen>
+    345
+    346
+    347
+    348
+    349
+    350
+    351
+    352
+    353
+    354
+    355
+    356
+    357
+    358
+    359
+    360
+    361
+    362
+    363
+    364
+    365
+    366
+    367
+    368
+    369
+    370
+    371
+    372
+    373
+    374
+    375
+    376
+    377
+    378
+    379
+    380
+    381
+    382
+    383
+    384
+    <dimen name="dp_360">360dp</dimen>
+    385
+    386
+    387
+    <dimen name="dp_400">400dp</dimen>
+    388
+    388
+    388
+    388
+    389
+    389
+    389
+    389
+    389
+    389
+    390
+    390
+    390
+    390
+    390
+    390
+    390
+    390
+    391
+    <dimen name="dp_500">500dp</dimen>
+    392
+    393
+    394
+    394
+    395
+
+    396     <!-- font size,you can add if there is no one -->
+    397
+    398
+    399
+    400
+    401
+    402
+    403
+    404
+    405
+    <dimen name="sp_14">14sp</dimen>
+    406
+    407
+    <dimen name="sp_16">16sp</dimen>
+    408
+    409
+    410
+    411
+    412
+    413
+    414
+    415
+    416
+    417
+    418
+    419
+    420
+    421
+    422
+    423
+    424
+    425
+</resources>

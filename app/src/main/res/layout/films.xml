@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="@dimen/dp_10"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_height="@dimen/dp_110">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="@dimen/dp_80"
+            fresco:roundAsCircle="true"
+            fresco:roundingBorderWidth="1dp"
+            android:id="@+id/sim"
+            android:layout_height="@dimen/dp_80"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="1111"
+            android:textSize="@dimen/dp_16"
+            android:textColor="#ffffff"
+            android:id="@+id/user_name"
+            android:layout_height="wrap_content"/>
+
+       <LinearLayout
+           android:layout_width="@dimen/dp_100"
+           android:gravity="center_horizontal"
+           android:layout_gravity="center_vertical"
+           android:layout_marginHorizontal="@dimen/dp_100"
+           android:layout_height="@dimen/dp_20">
+
+           <TextView
+               android:id="@+id/times"
+               android:gravity="center_vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:singleLine="true"
+               android:layout_marginLeft="-60dp"
+               android:textColor="#ffffff"
+               android:text="te"
+               android:textSize="@dimen/dp_13" />
+       </LinearLayout>
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="1111"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dp_30"
+        android:id="@+id/name_pinglun"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

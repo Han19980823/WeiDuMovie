@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/zuo_linear"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:button="@null"
+        android:id="@+id/zuo_che"
+        android:background="@drawable/myy_selector"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"
+        />
+    <CheckBox
+        android:button="@null"
+        android:id="@+id/zuo_che2"
+        android:enabled="false"
+        android:background="@drawable/myy_yelo"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>
